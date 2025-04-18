@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Network</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="javascript/main.js"></script>
+</head>
+<body>
+    <div class="container">
+      <h1 class="title">🌤️ Weather Network</h1>
+  
+      <div class="search-box">
+        <input type="text" id="city-input" placeholder="Enter city..." />
+        <button id="search-btn">Get Weather</button>
+      </div>
+  
+      <div class="main-wrapper">
+        <div id="weather-card" class="weather-card hidden">
+            <h2 id="city-name">City Name</h2>
+            <p id="temp">Temperature: --°C</p>
+            <p id="description">Description: --</p>
+            <p id="humidity">Humidity: --%</p>
+            <p id="wind">Wind Speed: -- km/h</p>
+          
+            <div id="forecast-tabs" class="forecast-tabs hidden"></div>
+            <div id="forecast-details" class="forecast-details hidden"></div>
+          </div>
+  
+        
+        
+      </div>
+    </div>
+  
+    
+  </body>
+</html>
